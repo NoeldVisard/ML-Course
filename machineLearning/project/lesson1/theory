@@ -1,0 +1,3 @@
+Обращение к столбцу data.Age, data['Age']
+Вывод всех мужчин: print(data[data['Sex'] == 'male'])
+Можно добавлять условие: print((data[data['Sex'] == 'male') & (data.Age > 18)])
